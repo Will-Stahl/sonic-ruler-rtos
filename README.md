@@ -5,7 +5,7 @@ Credit for `startup_tm4c_gnu.c`, `TM4C123GH6PM.h`, and `tm4c123gh6pm.lds` goes t
 
 ## Build
 Built with GNU toolchain in Code Composer Studio.
-You will have to add `heap2.c, list.c, tasks.c, port.c (FreeRTOS/Source/portable/GCC/ARM-CM4F/port.c)` to your project in order to build, as well as add 'FreeRTOS/Source/portable/GCC/ARM-CM4F/, FreeRTOS/Source/include' to your include paths. Note that the MPU port is not being used. Also requires `CMSIS/Core/Include` from the ti CMSIS library.
+You will have to add `heap2.c, list.c, tasks.c, port.c (FreeRTOS/Source/portable/GCC/ARM-CM4F/port.c)` to your project in order to build, as well as add `FreeRTOS/Source/portable/GCC/ARM-CM4F/, FreeRTOS/Source/include` to your include paths. Note that the MPU port is not being used. Also requires `CMSIS/Core/Include` from the ti CMSIS library.
 
 ## Schematics
 ### Common cathode 4-digit 7-segment display pin connections:
